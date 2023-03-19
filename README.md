@@ -7,7 +7,7 @@
 # 5. Views
 
 ## 1. Controllers
-Hay dos controlodares:
+Hay dos controlodares:                                             
 ![](imagenes/controladores.png)
 ### 1.1 ProductsController
 En este controlador de los productos. Contiene el código que permiten responder a las acciones que solicita la aplicación con relacion a los productos. Estan enlazados con las Views y los Models.
