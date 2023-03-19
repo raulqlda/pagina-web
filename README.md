@@ -18,13 +18,14 @@ En este controlador de los productos. Contiene el código que permiten responder
 En este controlador de los Usuarios. Contiene el codigo para controlar y validar el inicio de sesion. 
 ![](imagenes/controladorusuario.png)
 ## 2. Assets
-Carpeta que almacena todas las imagenes que son utilizadas por la base de datos para mostrarla en la aplicación
+Carpeta que almacena todas las imagenes que son utilizadas por la base de datos para mostrarla en la aplicación.
+![](imagenes/imagenes.png)
 ## 3. db
 Se encarga de realizar la conexión con la base de datos
 ![](imagenes/conexiondb.png)
 ## 4. Models
 Hay dos modelos:
-Se encargan de trabajar con la base de datos y sacar toda la informacion de la base de datos que necesite la aplicacion.
+Se encargan de trabajar con la base de datos y sacar toda la informacion de la base de datos que necesite la aplicación.
 ![](imagenes/modelos.png)
 ### 4.1 Productos
 ![](imagenes/modeloproducto1.png)
@@ -32,5 +33,5 @@ Se encargan de trabajar con la base de datos y sacar toda la informacion de la b
 ### 4.1 Usuarios
 ![](imagenes/modelousuario.png)
 ## 5. Views
-Se encargan de mostrar todo el contenido de la aplicacion web 
+Se encargan de mostrar todo el contenido de la aplicación web 
 ![](imagenes/vistas.png)
