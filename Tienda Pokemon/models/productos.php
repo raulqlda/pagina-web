@@ -16,7 +16,7 @@ class ProductoDAO {
 
     //Método que devuelve un array con todos los productos existentes en la base de datos.
     public function getAllProducts(){
-        $stmt= $this->db_con->prepare("Select * from Productos");
+        $stmt= $this->db_con->prepare("Select * from productos");
         $stmt->setFetchMode(PDO::FETCH_ASSOC);
 
         $stmt->execute();
@@ -27,7 +27,7 @@ class ProductoDAO {
 
     //Método que devuelve toda la información de un producto dado su id.
     public function getProductById ($id){
-        $stmt= $this->db_con->prepare("Select * from Productos where id_producto=$id");
+        $stmt= $this->db_con->prepare("Select * from productos where id_producto=$id");
         
         $stmt->setFetchMode(PDO::FETCH_ASSOC);
 
