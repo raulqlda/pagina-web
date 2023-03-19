@@ -40,8 +40,15 @@
         <div class="form-group">
             <label class="form-label" for="procedencia">Procedencia:</label>
             <select name="procedencia">
-                <option value="1" selected="selected">Nacional</option>
-                <option value="2" >Internacional</option>
+                <option value="1" selected="selected">Kanto</option>
+                <option value="2" >Johto</option>
+                <option value="3" >Hoenn</option>
+                <option value="4" >Sinnoh</option>
+                <option value="5" >Teselia</option>
+                <option value="6" >Kalos</option>
+                <option value="7" >Alola</option>
+                <option value="8" >Galar</option>
+                <option value="9" >Paldea</option>
         </select>
         </div>
         <?php
